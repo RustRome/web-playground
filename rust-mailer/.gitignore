@@ -1,4 +1,5 @@
 target/
+test.db
 **/*.rs.bk
 .idea
 .vscode
