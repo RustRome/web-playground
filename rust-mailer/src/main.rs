@@ -2,8 +2,7 @@
 #![plugin(rocket_codegen)]
 
 extern crate rocket;
-
-#[cfg(test)] mod tests;
+mod entity;
 
 #[get("/")]
 fn hello() -> &'static str {
