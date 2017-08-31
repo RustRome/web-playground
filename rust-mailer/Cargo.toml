@@ -10,8 +10,8 @@ rocket_codegen = "0.3.2"
 rocket_contrib = "*"
 
 # DB Deps
-diesel = { version = "*", features = ["postgres","chrono"]  }
-diesel_codegen = { version = "*", features = ["postgres"] }
+diesel = { version = "*", features = ["sqlite","chrono"]  }
+diesel_codegen = { version = "*", features = ["sqlite"] }
 r2d2 = "*"
 r2d2-diesel = "*"
 dotenv = "*"

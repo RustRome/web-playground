@@ -4,6 +4,14 @@
 extern crate rocket;
 extern crate rocket_contrib;
 
+#[macro_use]
+extern crate diesel;
+#[macro_use]
+extern crate diesel_codegen;
+
+extern crate dotenv;
+
+
 
 #[macro_use]
 extern crate serde_json;
@@ -11,6 +19,7 @@ extern crate serde_json;
 extern crate serde_derive;
 
 mod entity;
+mod db;
 
 #[get("/")]
 fn hello() -> &'static str {    
